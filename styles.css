@@ -1,0 +1,27 @@
+/* *, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+} */
+
+:root {
+    --font-color: #fff;
+    --font-hover-color: #555;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(173, 173, 173);
+}
+
+.container {
+    width: 500px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    padding: 13px 34px;
+    background-color: #fff;
+    border-radius: 5px;
+}
