@@ -25,3 +25,122 @@ body {
     background-color: #fff;
     border-radius: 5px;
 }
+
+.sent-notification {
+    color: #2c2b21;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+}
+
+.form-label {
+    color: #2c2b21;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+.form-input::-webkit-outer-spin-button,
+.form-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+.form-input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.container-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+    transition: all .3s;
+}
+
+.form-input {
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #ccc;
+    border-style: none none solid none;
+    width: 100%;
+    font-size: 1rem;
+    transition: all .6s;
+    margin-top: 20px;
+    padding: 0.8rem 0;
+}
+
+.form-input::placeholder {
+    color: #aaa;
+}
+
+.form-input::-webkit-input-placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-input:-ms-input-placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-input:-moz-placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-input::-moz-placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border-color: var(--font-hover-color);
+    outline: none;
+}
+
+.form-group:focus-within {
+    /*transform:scale(1.1,1.1); */
+}
+
+.form-input:invalid:focus {
+    border-color: rgb(159, 41, 41);
+}
+
+.form-input:valid:focus {
+    border-color: #2c2b21;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn {
+    background: 0 0 #555;
+    border: 4px solid #1000;
+    border-radius: 4px;
+    color: var(--font-color);
+    font-size: 0.9rem;
+    font-family: 'Arial';
+    padding: 10 20px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    border-color: var(--font-hover-color);
+    background: 0 0 #2c2b21;
+    color: var(--font-color);
+}
+
+textarea {
+    resize: none;
+}
+
+.focused>.form-label {
+    opacity: 1;
+    /* transform:translateX(0px); */
+}
