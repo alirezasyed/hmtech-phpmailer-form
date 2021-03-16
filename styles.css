@@ -101,10 +101,6 @@ body {
     outline: none;
 }
 
-.form-group:focus-within {
-    /*transform:scale(1.1,1.1); */
-}
-
 .form-input:invalid:focus {
     border-color: rgb(159, 41, 41);
 }
